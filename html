@@ -1,32 +1,101 @@
-<html>
-    <head>
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<title>live</title>
+<head>
 
-        <h1 id=title><i> you can never have too many plants</i></h1>
+        
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Login form</title>
         <link rel="stylesheet" href="stylee.css">
-
+        
 
     </head>
     <header>
-        <nav class="topnav">
-            <a href="#pots-and-planters">Pots and planters</a>
-            <a href="#seeds">seeds</a>
-            <nav class="topnav-right">
-                <a href="#fertilizer">Fertilizer</a>
-                <a href="indoor plants">indoor plants</a>
-                <a href="contact us"> contact us</a>
+        <button class="nav-toggle">
+            <span class="hamburger"></span>
+        </button>
+        <div class="smalllogo">
+            <a href="#welcome-section" class="logolink">
+                <h2> <i class="fas fa-code"></i> Plant me !</h2>
+            </a>
+        </div>
 
-            </nav>
+        <nav class="nav" id="navbar">
+            <div class="logo">
+                <a href="index.html" id="logo">
+                    <h1> <i class="fas fa-code" style="font-size: 20px;"></i> Plant me !</h1>
+                </a>
+            </div>
+
+
+            <ul class="nav__list" id="navlinkitems">
+                <li class="nav__item">
+                    <a href="#home-section" class="nav__link" id="home">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#pots-and-planters" class="nav__link" id="pots">pots and planters</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#seeds" class="nav__link" id="seeds">Seeds</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#fertilizers" class="nav__link" id="fertilizers">Fertilizers</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#contacts-section" class="nav__link" id="contact">Contact</a>
+                </li>
+            </ul>
+
         </nav>
-        <main id="main">
-            <style>
+    </header>
+    <section class="section one" id="home-section">
+
+    </section>
+    <section class="section two" id="pots-section">
+
+    </section>
+    <section class="section three" id="seeds-section">
+
+    </section>
+    <section class="section four" id="fertilizers-section">
+
+    </section>
+    <section class="section five" id="contacts-section">
+
+    </section>
+
+
+    <main id="main">
+        <style>
                 body {
                   background-image: url('https://images.unsplash.com/photo-1583753075968-1236ccb83c66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG91c2VwbGFudHN8ZW58MHx8MHx8&w=1000&q=80');
                 }
                 </style>
+                <div class="contact-container">
+                    <div class="right">
+                        <h1 class="title">Sign Into Account</h1>
+                        <img class="logo" src="https://i.pinimg.com/564x/05/8d/e3/058de328cd530a1836a8ee0c7c945f0f.jpg" alt="">
+                        <div class="form-container">
+                            <div class="username">
+                                <img class="icon email-icon" src="https://i.pinimg.com/564x/09/59/7f/09597f90145f28a708b978dfc83b43e1.jpg" alt="">
+                                <input type="email" class="user-input" placeholder="E-Mail">
+                            </div>
+                            <div class="password">
+                                <img class="icon password-icon" src="https://i.pinimg.com/564x/b4/61/ef/b461efa3f3c47b098402926712aad5d7.jpg" alt="">
+                                <input type="password" class="pass-input" placeholder="Password">
+                            </div>
+                            <div class="keepme">
+                                <input type="checkbox" checked="true">
+                                Keep Me Logged In
+                            </div>
+                            <button type="submit">Go !</button>
+                            <a href="#" class="link">Forgot Password</a>
+                        </div>
+                    </div>
+                </div>
 
 
 
