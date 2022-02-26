@@ -414,11 +414,12 @@ section {
   margin: auto;
   align-items: center;
   min-height: 110vh;
+
 }
 
 
 .two {
-  background-color: rgb(190, 183, 170);
+  background-color: greenyellow;
 }
 
 .three {
@@ -433,6 +434,14 @@ section {
   background-color: rgb(163, 226, 62);
 }
 
+.grid-container{
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 20px;
+  column-gap:50px;
+  
+}
 
 
 
